@@ -59,3 +59,6 @@ Additionally, the console supports `<class name>.<command>(<parameters>)` syntax
 Ex:
 `City.show(my_city_id)`
 
+## 0x02. AirBnB clone - MySQL
+
+### 0. 0. Fork me if you can!
