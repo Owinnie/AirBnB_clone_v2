@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Compress web static package
+"""Compress before shipping
 """
 from fabric.api import local
 from datetime import datetime
@@ -8,7 +8,9 @@ from datetime import datetime
 def do_pack():
     """Function to compress directory
 
-    Return: path to archive on success; None on fail
+    Return:
+        path to archive on success;
+        None on fail
     """
     # Get current time
     now = datetime.now()
