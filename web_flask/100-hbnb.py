@@ -10,7 +10,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
-@app.route('/hbnb_filters')
+@app.route('/hbnb')
 def hbnb_filters():
     """Render template with states
     """
